@@ -1,0 +1,29 @@
+.iig_intranet_wrap {
+    /*border: 1px solid red;*/
+    margin-top: 2em;
+    padding-right: 2em;
+}
+
+.iig_intranet_wrap div {
+	border-radius: 1px;
+}
+
+.iig_intranet_wrap .header .row button {
+	margin: 1px;
+}
+
+.iig_intranet_wrap .dashboard_content {
+	max-width: 80%;
+}
+
+.iig_intranet_wrap .dashboard_content .row > div {
+	border: 1px solid #dfe1e4;
+	margin: 1em;
+}
+
+@media only screen and (min-width: 576px) {
+	.iig_intranet_wrap .header .row div:last-child {
+		margin-right: 1em;
+	}
+}
+
