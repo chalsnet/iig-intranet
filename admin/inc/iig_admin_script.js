@@ -21,4 +21,5 @@ const getSub = url.searchParams.get("sub");
 
 if (getSub != null) {
     console.log(getSub);
+    
 }
