@@ -1,5 +1,8 @@
 <div class="dashboard_content">
 
+	<div class="sub_page">
+		<?php print_r($_GET["sub"]); ?>
+	</div>
 	<div class="row">
 		<div class="col-sm">
 			<div>Sales Report</div>
@@ -42,9 +45,6 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div class="sub_page">
-		<?php print_r($_GET["sub"]); ?>
 	</div>
 </div>
 
